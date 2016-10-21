@@ -1,0 +1,14 @@
+FILE = version
+PRODUCT = numpy
+VERSION = system
+#***************************************
+
+Group:
+   FLAVOR = DarwinX86
+   QUALIFIERS = ""
+   DECLARER = SQuaRE
+   DECLARED = 2016/09/30 20:14:40 UTC
+   PROD_DIR = /opt/anaconda1anaconda2anaconda3/opt/lsst/numpy
+   UPS_DIR = ups
+   TABLE_FILE = numpy.table
+End:

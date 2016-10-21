@@ -1,0 +1,9 @@
+bin/.lsst-numpy-eups-configs-pre-link.sh
+opt/lsst/numpy/ups/eupspkg.cfg.sh
+opt/lsst/numpy/ups/global.tags
+opt/lsst/numpy/ups/numpy.cfg
+opt/lsst/numpy/ups/numpy.cfgc
+opt/lsst/numpy/ups/numpy.table
+var/opt/eups/ups_db/numpy/conda.chain
+var/opt/eups/ups_db/numpy/current.chain
+var/opt/eups/ups_db/numpy/system.version

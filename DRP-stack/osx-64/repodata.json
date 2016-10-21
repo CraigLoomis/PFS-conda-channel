@@ -1,0 +1,21 @@
+{
+  "info": {},
+  "packages": {
+    "lsst-numpy-eups-configs-0.0.3-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "eups >=2.0.2",
+        "lsst-python-eups-configs ==0.0.5",
+        "nomkl",
+        "numpy >=1.10.4"
+      ],
+      "md5": "2604325fac76597d84bbcb2316e391c8",
+      "name": "lsst-numpy-eups-configs",
+      "sig": null,
+      "size": 7102,
+      "subdir": "osx-64",
+      "version": "0.0.3"
+    }
+  }
+}

@@ -1,0 +1,113 @@
+Removing old build environment
+Removing old work directory
+BUILD START: lsst-numpy-eups-configs-0.0.3-0
+Fetching package metadata .........
+
+WARNING: conda-build appears to be out of date. You have version 1.20.0 but the
+latest version is 2.0.2. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ..........
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    numpy-1.10.4               |     py27_nomkl_2         3.0 MB
+
+The following NEW packages will be INSTALLED:
+
+    eups:                     2.0.2-0             local
+    lsst-python-eups-configs: 0.0.5-0             local
+    nomkl:                    1.0-0                    
+    numpy:                    1.10.4-py27_nomkl_2       [nomkl]
+    openssl:                  1.0.2j-0                 
+    pip:                      8.1.2-py27_0             
+    python:                   2.7.12-1                 
+    readline:                 6.2-2                    
+    setuptools:               27.2.0-py27_0            
+    sqlite:                   3.13.0-0                 
+    tk:                       8.5.18-0                 
+    wheel:                    0.29.0-py27_0            
+    zlib:                     1.2.8-3                  
+
+Fetching packages ...
+numpy-1.10.4-p   0% |                              | ETA:  --:--:--   0.00  B/snumpy-1.10.4-p   1% |                               | ETA:  0:00:11 277.04 kB/snumpy-1.10.4-p   2% |                               | ETA:  0:00:08 368.98 kB/snumpy-1.10.4-p   3% |                               | ETA:  0:00:05 545.19 kB/snumpy-1.10.4-p   4% |#                              | ETA:  0:00:05 548.89 kB/snumpy-1.10.4-p   5% |#                              | ETA:  0:00:04 684.31 kB/snumpy-1.10.4-p   6% |#                              | ETA:  0:00:03 819.33 kB/snumpy-1.10.4-p   7% |##                             | ETA:  0:00:03 769.01 kB/snumpy-1.10.4-p   8% |##                             | ETA:  0:00:03 876.99 kB/snumpy-1.10.4-p   9% |##                             | ETA:  0:00:02 984.67 kB/snumpy-1.10.4-p  10% |###                            | ETA:  0:00:03 921.23 kB/snumpy-1.10.4-p  11% |###                            | ETA:  0:00:02   1.01 MB/snumpy-1.10.4-p  12% |###                            | ETA:  0:00:02   1.10 MB/snumpy-1.10.4-p  13% |####                           | ETA:  0:00:02   1.19 MB/snumpy-1.10.4-p  14% |####                           | ETA:  0:00:02   1.28 MB/snumpy-1.10.4-p  15% |####                           | ETA:  0:00:02   1.18 MB/snumpy-1.10.4-p  16% |#####                          | ETA:  0:00:02   1.26 MB/snumpy-1.10.4-p  17% |#####                          | ETA:  0:00:01   1.33 MB/snumpy-1.10.4-p  18% |#####                          | ETA:  0:00:01   1.41 MB/snumpy-1.10.4-p  19% |######                         | ETA:  0:00:01   1.48 MB/snumpy-1.10.4-p  20% |######                         | ETA:  0:00:01   1.56 MB/snumpy-1.10.4-p  21% |######                         | ETA:  0:00:01   1.44 MB/snumpy-1.10.4-p  22% |#######                        | ETA:  0:00:01   1.51 MB/snumpy-1.10.4-p  23% |#######                        | ETA:  0:00:01   1.58 MB/snumpy-1.10.4-p  24% |#######                        | ETA:  0:00:01   1.64 MB/snumpy-1.10.4-p  25% |########                       | ETA:  0:00:01   1.71 MB/snumpy-1.10.4-p  26% |########                       | ETA:  0:00:01   1.78 MB/snumpy-1.10.4-p  27% |########                       | ETA:  0:00:01   1.84 MB/snumpy-1.10.4-p  28% |########                       | ETA:  0:00:01   1.91 MB/snumpy-1.10.4-p  30% |#########                      | ETA:  0:00:01   1.78 MB/snumpy-1.10.4-p  31% |#########                      | ETA:  0:00:01   1.83 MB/snumpy-1.10.4-p  32% |#########                      | ETA:  0:00:01   1.89 MB/snumpy-1.10.4-p  33% |##########                     | ETA:  0:00:01   1.95 MB/snumpy-1.10.4-p  34% |##########                     | ETA:  0:00:01   2.01 MB/snumpy-1.10.4-p  35% |##########                     | ETA:  0:00:00   2.07 MB/snumpy-1.10.4-p  36% |###########                    | ETA:  0:00:00   2.12 MB/snumpy-1.10.4-p  37% |###########                    | ETA:  0:00:00   2.18 MB/snumpy-1.10.4-p  38% |###########                    | ETA:  0:00:00   2.24 MB/snumpy-1.10.4-p  39% |############                   | ETA:  0:00:00   2.30 MB/snumpy-1.10.4-p  40% |############                   | ETA:  0:00:00   2.14 MB/snumpy-1.10.4-p  41% |############                   | ETA:  0:00:00   2.19 MB/snumpy-1.10.4-p  42% |#############                  | ETA:  0:00:00   2.25 MB/snumpy-1.10.4-p  43% |#############                  | ETA:  0:00:00   2.30 MB/snumpy-1.10.4-p  44% |#############                  | ETA:  0:00:00   2.35 MB/snumpy-1.10.4-p  45% |##############                 | ETA:  0:00:00   2.40 MB/snumpy-1.10.4-p  46% |##############                 | ETA:  0:00:00   2.46 MB/snumpy-1.10.4-p  47% |##############                 | ETA:  0:00:00   2.51 MB/snumpy-1.10.4-p  48% |###############                | ETA:  0:00:00   2.56 MB/snumpy-1.10.4-p  49% |###############                | ETA:  0:00:00   2.61 MB/snumpy-1.10.4-p  50% |###############                | ETA:  0:00:00   2.45 MB/snumpy-1.10.4-p  51% |################               | ETA:  0:00:00   2.49 MB/snumpy-1.10.4-p  52% |################               | ETA:  0:00:00   2.54 MB/snumpy-1.10.4-p  53% |################               | ETA:  0:00:00   2.59 MB/snumpy-1.10.4-p  54% |#################              | ETA:  0:00:00   2.63 MB/snumpy-1.10.4-p  55% |#################              | ETA:  0:00:00   2.68 MB/snumpy-1.10.4-p  56% |#################              | ETA:  0:00:00   2.73 MB/snumpy-1.10.4-p  57% |#################              | ETA:  0:00:00   2.78 MB/snumpy-1.10.4-p  59% |##################             | ETA:  0:00:00   2.82 MB/snumpy-1.10.4-p  60% |##################             | ETA:  0:00:00   2.87 MB/snumpy-1.10.4-p  61% |##################             | ETA:  0:00:00   2.92 MB/snumpy-1.10.4-p  62% |###################            | ETA:  0:00:00   2.97 MB/snumpy-1.10.4-p  63% |###################            | ETA:  0:00:00   2.79 MB/snumpy-1.10.4-p  64% |###################            | ETA:  0:00:00   2.83 MB/snumpy-1.10.4-p  65% |####################           | ETA:  0:00:00   2.88 MB/snumpy-1.10.4-p  66% |####################           | ETA:  0:00:00   2.92 MB/snumpy-1.10.4-p  67% |####################           | ETA:  0:00:00   2.96 MB/snumpy-1.10.4-p  68% |#####################          | ETA:  0:00:00   3.00 MB/snumpy-1.10.4-p  69% |#####################          | ETA:  0:00:00   3.05 MB/snumpy-1.10.4-p  70% |#####################          | ETA:  0:00:00   3.09 MB/snumpy-1.10.4-p  71% |######################         | ETA:  0:00:00   3.13 MB/snumpy-1.10.4-p  72% |######################         | ETA:  0:00:00   3.18 MB/snumpy-1.10.4-p  73% |######################         | ETA:  0:00:00   3.22 MB/snumpy-1.10.4-p  74% |#######################        | ETA:  0:00:00   3.26 MB/snumpy-1.10.4-p  75% |#######################        | ETA:  0:00:00   3.31 MB/snumpy-1.10.4-p  76% |#######################        | ETA:  0:00:00   3.35 MB/snumpy-1.10.4-p  77% |########################       | ETA:  0:00:00   3.17 MB/snumpy-1.10.4-p  78% |########################       | ETA:  0:00:00   3.20 MB/snumpy-1.10.4-p  79% |########################       | ETA:  0:00:00   3.24 MB/snumpy-1.10.4-p  80% |#########################      | ETA:  0:00:00   3.27 MB/snumpy-1.10.4-p  81% |#########################      | ETA:  0:00:00   3.31 MB/snumpy-1.10.4-p  82% |#########################      | ETA:  0:00:00   3.35 MB/snumpy-1.10.4-p  83% |#########################      | ETA:  0:00:00   3.39 MB/snumpy-1.10.4-p  84% |##########################     | ETA:  0:00:00   3.43 MB/snumpy-1.10.4-p  85% |##########################     | ETA:  0:00:00   3.47 MB/snumpy-1.10.4-p  86% |##########################     | ETA:  0:00:00   3.51 MB/snumpy-1.10.4-p  87% |###########################    | ETA:  0:00:00   3.55 MB/snumpy-1.10.4-p  89% |###########################    | ETA:  0:00:00   3.59 MB/snumpy-1.10.4-p  90% |###########################    | ETA:  0:00:00   3.63 MB/snumpy-1.10.4-p  91% |############################   | ETA:  0:00:00   3.67 MB/snumpy-1.10.4-p  92% |############################   | ECloning into bare repository '/Users/square/dev/conda-lsst/miniconda/conda-bld/git_cache/__github.com_LSST_numpy'...
+Cloning into '/Users/square/dev/conda-lsst/miniconda/conda-bld/work'...
+done.
+Note: checking out 'c1bdd73fbef02df5b68128b4c309be514756acb9'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at c1bdd73... Merge branch 'tickets/DM-7023'
+++ git rev-parse --show-toplevel
++ export SRC_DIR=/Users/square/dev/conda-lsst/miniconda/conda-bld/work
++ SRC_DIR=/Users/square/dev/conda-lsst/miniconda/conda-bld/work
++ cd /Users/square/dev/conda-lsst/miniconda/conda-bld/work
+++ basename ups/numpy.table .table
++ PRODUCT=numpy
++ EUPS_VERSION=system
++ PREFIX=/Users/square/dev/conda-lsst/miniconda/envs/_build/opt/lsst/numpy
++ source eups-setups.sh
+++ export EUPS_SHELL=sh
+++ EUPS_SHELL=sh
+++ export EUPS_DIR=/Users/square/dev/conda-lsst/miniconda/envs/_build/opt/eups
+++ EUPS_DIR=/Users/square/dev/conda-lsst/miniconda/envs/_build/opt/eups
++++ /Users/square/dev/conda-lsst/miniconda/envs/_build/bin/python -E -S -c '
+from __future__ import print_function
+import sys
+pp = []
+for d in sys.argv[1].split(":"):
+    if d and d not in pp:
+        pp += [d]
+if not sys.argv[2] in pp:
+    pp = [sys.argv[2]] + pp
+print(":".join(pp))' '' /Users/square/dev/conda-lsst/miniconda/envs/_build/var/opt/eups
+++ export EUPS_PATH=/Users/square/dev/conda-lsst/miniconda/envs/_build/var/opt/eups
+++ EUPS_PATH=/Users/square/dev/conda-lsst/miniconda/envs/_build/var/opt/eups
++++ /Users/square/dev/conda-lsst/miniconda/envs/_build/opt/eups/bin/eups_setup DYLD_LIBRARY_PATH= eups -r /Users/square/dev/conda-lsst/miniconda/envs/_build/opt/eups
+++ eval export 'PATH=/Users/square/dev/conda-lsst/miniconda/envs/_build/opt/eups/bin:/Users/square/dev/conda-lsst/miniconda/envs/_build/bin:/Users/square/dev/conda-lsst/bin:/Users/square/dev/conda-lsst/miniconda/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin;' export 'PYTHONPATH=/Users/square/dev/conda-lsst/miniconda/envs/_build/opt/eups/python;' export 'SETUP_EUPS='\''eups' LOCAL:/Users/square/dev/conda-lsst/miniconda/envs/_build/opt/eups -f DarwinX86 -Z '(none)'\'';' 'setup()' '{' eval '`/Users/square/dev/conda-lsst/miniconda/envs/_build/opt/eups/bin/eups_setup' 'DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH}' '"$@"`' ';' '};' 'unsetup()' '{' eval '`/Users/square/dev/conda-lsst/miniconda/envs/_build/opt/eups/bin/eups_setup' 'DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH}' --unsetup '"$@"`' ';' '}'
++++ export PATH=/Users/square/dev/conda-lsst/miniconda/envs/_build/opt/eups/bin:/Users/square/dev/conda-lsst/miniconda/envs/_build/bin:/Users/square/dev/conda-lsst/bin:/Users/square/dev/conda-lsst/miniconda/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
++++ PATH=/Users/square/dev/conda-lsst/miniconda/envs/_build/opt/eups/bin:/Users/square/dev/conda-lsst/miniconda/envs/_build/bin:/Users/square/dev/conda-lsst/bin:/Users/square/dev/conda-lsst/miniconda/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
++++ export PYTHONPATH=/Users/square/dev/conda-lsst/miniconda/envs/_build/opt/eups/python
++++ PYTHONPATH=/Users/square/dev/conda-lsst/miniconda/envs/_build/opt/eups/python
++++ export 'SETUP_EUPS=eups LOCAL:/Users/square/dev/conda-lsst/miniconda/envs/_build/opt/eups -f DarwinX86 -Z (none)'
++++ SETUP_EUPS='eups LOCAL:/Users/square/dev/conda-lsst/miniconda/envs/_build/opt/eups -f DarwinX86 -Z (none)'
+++ export 'SETUP_EUPS=eups LOCAL:/Users/square/dev/conda-lsst/miniconda/envs/_build/opt/eups -f (none) -Z (none)'
+++ SETUP_EUPS='eups LOCAL:/Users/square/dev/conda-lsst/miniconda/envs/_build/opt/eups -f (none) -Z (none)'
+++ '[' X '!=' X -a -f /Users/square/dev/conda-lsst/miniconda/envs/_build/opt/eups/etc/bash_completion.d/eups ']'
++ mkdir -p /Users/square/dev/conda-lsst/miniconda/envs/_build/opt/lsst/numpy
++ cp -a ups /Users/square/dev/conda-lsst/miniconda/envs/_build/opt/lsst/numpy
++ for table in 'ups/*.table'
+++ basename ups/numpy.table .table
++ PRODUCT=numpy
++ eups declare -t current -r /Users/square/dev/conda-lsst/miniconda/envs/_build/opt/lsst/numpy numpy system
+Warning: path /Users/square/dev/conda-lsst/miniconda/envs/_build/opt/lsst/numpy is absolute, not relative to EUPS_PATH
++ TAGFILE=/Users/square/dev/conda-lsst/miniconda/envs/_build/var/opt/eups/ups_db/global.tags
++ for TAG in current conda
++ test -f /Users/square/dev/conda-lsst/miniconda/envs/_build/var/opt/eups/ups_db/global.tags
++ echo -n ' '
++ echo -n current
++ eups declare -t current numpy system
++ for TAG in current conda
++ test -f /Users/square/dev/conda-lsst/miniconda/envs/_build/var/opt/eups/ups_db/global.tags
++ echo -n ' '
++ echo -n conda
++ eups declare -t conda numpy system
++ mv /Users/square/dev/conda-lsst/miniconda/envs/_build/var/opt/eups/ups_db/global.tags /Users/square/dev/conda-lsst/miniconda/envs/_build/opt/lsst/numpy/ups
++ ls /Users/square/dev/conda-lsst/miniconda/envs/_build/opt/lsst/numpy/ups/numpy.cfg
++ /Users/square/dev/conda-lsst/miniconda/envs/_build/bin/python -m py_compile /Users/square/dev/conda-lsst/miniconda/envs/_build/opt/lsst/numpy/ups/numpy.cfg
++ eups list
+Unknown tag found in /Users/square/dev/conda-lsst/miniconda/envs/_build/var/opt/eups stack: "conda"; defining
+numpy                 system     	current conda
+python                system     	current conda
